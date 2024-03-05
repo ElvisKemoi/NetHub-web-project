@@ -6,9 +6,14 @@
     font-family: 'Nethub-Offcanvas-Font';
     src: url(./assets/font/)
 }
+:root{
+    --primary-color: #D962DF;
+
+}
+
 
 .navbar {
-    background-color: #D962DF;
+    background-color: var(--primary-color);
 }
 .navbar-brand{
     color: white;
@@ -25,7 +30,7 @@
 }
 
 .offcanvas-header {
-    background-color: #D962DF;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -34,14 +39,14 @@
 }
 
 .nav-link {
-    color: #D962DF;
+    color: var(--primary-color);
 }
 .dropdown-menu {
-    background-color: #D962DF;
+    background-color: var(--primary-color);
 }
 
 .btn{
-    background-color: #D962DF;
+    background-color: var(--primary-color);
     color: white;
 }
 /* End of Nav and offcanva*/
@@ -64,16 +69,16 @@
     color: white;
 }
 .text-carousel-p{
-    color: #D962DF;
+    color: var(--primary-color);
 }
 /* End of carousel*/
 .text-uppercase{
-    text-shadow: -2px 1px 7px #d962df; 
+    text-shadow: -2px 1px 7px var(--primary-color); 
     font-family: 'Nethub-Nav-Font';
 }
 /*End About Us Section*/
 .mission-vision{
-    color: #D962DF;
+    color: var(--primary-color);
 }
 /*End offcanvas Mission and Visiom*/
 
